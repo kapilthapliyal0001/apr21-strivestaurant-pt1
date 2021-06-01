@@ -1,7 +1,7 @@
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import MyNav from './components/MyNav'
-import Home from './components/Home'
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MyNav from "./components/MyNav";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <MyNav title="StriveStaurant" />
       <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
